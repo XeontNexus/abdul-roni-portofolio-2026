@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Container, SectionHeading } from "../shared";
-import { skills } from "@/lib/constants";
+import { skills, type Skill } from "@/lib/constants";
 
 function SkillCategory({
   category,
@@ -10,7 +10,7 @@ function SkillCategory({
   index,
 }: {
   category: string;
-  categorySkills: (typeof skills)[];
+  categorySkills: Skill[];
   index: number;
 }) {
   return (
