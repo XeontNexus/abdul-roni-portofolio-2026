@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer base {
+  :root {
+    --background: #0d0d12;
+    --foreground: #f2f2f5;
+    --card: #1a1a24;
+    --card-foreground: #f2f2f5;
+    --primary: #3d8eff;
+    --primary-foreground: #0d0d12;
+    --secondary: #0080ff;
+    --secondary-foreground: #0d0d12;
+    --muted: #404052;
+    --muted-foreground: #cccccc;
+    --accent: #00d4ff;
+    --accent-foreground: #0d0d12;
+    --destructive: #ff4444;
+    --destructive-foreground: #f2f2f5;
+    --border: #1a1a24;
+    --input: #1a1a24;
+    --ring: #3d8eff;
+    --radius: 0.5rem;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    background: linear-gradient(to bottom right, #0d0d12, #0d0d12, #1a1a24);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent;
+  }
+
+  .glow {
+    @apply shadow-lg shadow-accent/20;
+  }
+
+  .glow-lg {
+    @apply shadow-2xl shadow-accent/30;
+  }
+
+  .blur-glass {
+    @apply bg-black/30 backdrop-blur-xl border border-white/10;
+  }
+}
