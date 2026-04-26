@@ -87,7 +87,7 @@ export function AboutSection() {
         >
           <div className="p-6 rounded-lg bg-gradient-to-br from-primary/10 via-accent/5 to-transparent border border-accent/20 hover:border-accent/50 transition-all">
             <p className="text-sm text-foreground italic font-medium leading-relaxed">
-              "I believe great software is built through attention to detail, continuous learning, and a deep understanding of user needs. Every project is an opportunity to learn and deliver excellence."
+              &quot;I believe great software is built through attention to detail, continuous learning, and a deep understanding of user needs. Every project is an opportunity to learn and deliver excellence.&quot;
             </p>
             <p className="mt-4 text-xs text-muted-foreground font-semibold">
               — Abdul Roni

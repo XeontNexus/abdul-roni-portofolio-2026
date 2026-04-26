@@ -217,7 +217,7 @@ export function ContactSection() {
             <div className="p-4 rounded-lg bg-green-500/10 border border-green-500/30 flex items-gap-3">
               <CheckCircle className="h-5 w-5 text-green-500 flex-shrink-0" />
               <p className="text-sm text-green-400">
-                Message sent successfully! I'll get back to you soon.
+                Message sent successfully! I&apos;ll get back to you soon.
               </p>
             </div>
           )}

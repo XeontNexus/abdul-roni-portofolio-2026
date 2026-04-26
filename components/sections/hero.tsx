@@ -86,7 +86,7 @@ export function HeroSection() {
           {/* Main Heading */}
           <motion.div variants={itemVariants} className="space-y-2 md:space-y-4">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-black tracking-tight leading-tight">
-              <span className="block">Hi, I'm</span>
+              <span className="block">Hi, I&apos;m</span>
               <span className="block gradient-text">Abdul Roni</span>
             </h1>
           </motion.div>
