@@ -85,10 +85,10 @@ export function SkillsSection() {
         className="mt-12 md:mt-16 p-6 rounded-lg bg-gradient-to-r from-primary/10 via-accent/5 to-transparent border border-accent/20 hover:border-accent/50 transition-all"
       >
         <p className="text-sm text-foreground leading-relaxed">
-          <span className="font-semibold text-accent">Always learning:</span> I'm
+          <span className="font-semibold text-accent">Always learning:</span> I&apos;m
           continuously expanding my skillset and staying updated with the latest
           technologies and best practices in web development. Currently exploring{" "}
-          <span className="text-accent">React Native & Cloud Architecture</span>.
+          <span className="text-accent">React Native &amp; Cloud Architecture</span>.
         </p>
       </motion.div>
     </Container>
